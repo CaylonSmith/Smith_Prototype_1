@@ -6,31 +6,59 @@ body {
   background-size: cover;
   }
 
+  body a{
+    text-decoration:none;
+    
+    
+  }
+
+  body ul{
+    list-style-type: none;
+  }
+
   .indexMainImage {
     
     margin-left: 36rem;
     margin-top: -3rem;
-    margin-bottom:-7rem ;
+   
   }
+
+
   
-  .indexHeaderCard{
+  .indexHeader{
 
     margin-left: 25rem;
     margin-bottom:-5rem ;
+    
+    
+    
 
+  }
+
+  .indexHeaderCard a{
+    
+    display: block;
+    background : #fcbee4;
+    margin-right: 56rem;
+   padding-bottom: 1rem;
+   
   }
 
   #logo{
     margin-left: 42rem;
     margin-bottom: 5rem;
+    font-size: 3rem;
   }
 
   .newBlog{
+   
     height:12rem;
     margin-bottom:32rem;
     border-radius: 10%;
    
+
   }
+  
 
   .latestBlog{
     margin-left: 66rem;
