@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Caylon Smith | UX designer</title>
+    <link rel="stylesheet" href="/normalize.css" />
+    <link rel="stylesheet" href="/css/stylesheet.css" />
   </head>
   <body>
-    <h1>Web Smith</h1>
-
     <header>
+      <a href="index.html"><h1 id="logo">Web Smith</h1></a>
+
       <nav class="indexHeaderCard">
         <ul>
           <li><a href="blogSelection.html">Blogs</a></li>
@@ -20,24 +22,14 @@
       </nav>
     </header>
 
-    <div class="indexMainImage">
-      <img src="/images/indexMain.png" alt="image of anime character" />
-    </div>
-
     <section>
-      <h3>Latest Blog</h3>
-      <img src="images/indexlatsestBlog.jpg" alt="" />
+      <a href="/blog1.html"> <h3 class="latestBlog">Latest Blog</h3></a>
+      <div class="indexMainImage">
+        <img src="/images/indexMain.png" alt="image of anime character" />
+        <a href="/blog1.html">
+          <img class="newBlog" src="images/indexlatsestBlog.jpg" alt=""
+        /></a>
+      </div>
     </section>
-
-    <footer>
-      <nav class="indexFooterCard">
-        <ul>
-          <li><a href="blogSelection.html">Blogs</a></li>
-          <li><a href="design.html">Design</a></li>
-          <li><a href="dataVisualisation.html">Data Visualisation</a></li>
-          <li><a href="dataArt.html">Data Art</a></li>
-        </ul>
-      </nav>
-    </footer>
   </body>
 </html>

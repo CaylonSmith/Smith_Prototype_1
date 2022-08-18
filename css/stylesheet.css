@@ -1,0 +1,38 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #e489f4;
+    min-height: 100vh;
+    
+  background-size: cover;
+  }
+
+  .indexMainImage {
+    
+    margin-left: 36rem;
+    margin-top: -3rem;
+    margin-bottom:-7rem ;
+  }
+  
+  .indexHeaderCard{
+
+    margin-left: 25rem;
+    margin-bottom:-5rem ;
+
+  }
+
+  #logo{
+    margin-left: 42rem;
+    margin-bottom: 5rem;
+  }
+
+  .newBlog{
+    height:12rem;
+    margin-bottom:32rem;
+    border-radius: 10%;
+   
+  }
+
+  .latestBlog{
+    margin-left: 66rem;
+
+  }
