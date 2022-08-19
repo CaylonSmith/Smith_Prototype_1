@@ -2,15 +2,20 @@ body {
     font-family: "Courier New", Courier, monospace;
     background-color: #e489f4;
     min-height: 100vh;
+    font-size: 1rem;
+
     
   background-size: cover;
   }
 
   body a{
     text-decoration:none;
-    
+    color: black; 
     
   }
+
+
+
 
   body ul{
     list-style-type: none;
@@ -29,10 +34,18 @@ body {
 
     margin-left: 25rem;
     margin-bottom:-5rem ;
-    
-    
+    text-align: center;
+
+   
+  }
+
+ 
+
+  .indexHeaderCard:hover a{
     
 
+      background-color: #fbddc4;
+    
   }
 
   .indexHeaderCard a{
@@ -64,3 +77,98 @@ body {
     margin-left: 66rem;
 
   }
+
+
+  .HeaderCard ul li{
+    display: inline-block;
+    margin-left: 13rem;
+    text-decoration: underline;
+text-underline-offset: 1rem;
+margin-bottom: 7rem;
+  }
+
+
+  
+
+
+
+
+  .blogSection p{
+    margin-left: 20rem;
+    margin-right:40rem;
+   border-style: solid;
+   border-color: #fcbee4;
+    line-height: 3rem;
+  }
+  
+  .blogSection :hover p{
+    background-color: #fbddc4;
+    transition: 2.5s;
+    animation-fill-mode: backwards;
+
+  }
+
+  .blogSection h2{
+    margin-left: 20rem;
+    margin-right:40rem;
+    line-height: 3rem;
+    
+  }
+
+
+  .blogSection img{
+  margin-right: 10rem;
+    margin-top: -21rem;
+    line-height: 3rem;
+    float: right;
+   height: 12rem;
+   border-radius: 10%;
+    
+  }
+
+ .FooterCard ul li {
+  display: inline;
+  float: right;
+  padding-right: 5rem;
+  margin-top: 3rem;
+ }
+
+
+.blogAuthor h5{
+  display: inline;
+  margin-left: 9rem;
+}
+
+.blogBody{
+  margin-left: 20rem;
+  margin-right: 20rem;
+  line-height: 3rem;
+}
+
+.blogBody img{
+  margin-left: 10rem;
+}
+
+
+
+.blogBody ul li{
+  list-style-type: disc;
+}
+
+.blogSubHeadings{
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+#scrollToTopbtn{
+  background: #fbddc4;
+  position: fixed;
+  border-radius: 50%;
+  right: 10px;
+  bottom: 1rem;
+  width: 50px;
+  height: 50px;
+}
+
