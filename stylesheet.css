@@ -1,184 +1,106 @@
 body {
   font-family: "Trebuchet MS";
-    background-color: #e489f4;
+    background-color: #3c4965;
     min-height: 100vh;
     font-size: 1rem;
-
+    color: #EDEADE	;
     
-  background-size: cover;
-  }
+}
 
-  body a{
-    text-decoration:none;
-    color: black; 
-    
-  }
+.main{
+  margin-left: 20rem;
+  margin-right: 25rem;
+}
 
 
+img {
+  width: 300px;
+  border-radius: 2%;
+}
 
 
-  body ul{
-    list-style-type: none;
-  }
-
-  .indexMainImage {
-    
-    margin-left: 36rem;
-    margin-top: -3rem;
-   
-  }
 
 
-  
-  .indexHeader{
+.footerContainer{
 
-    margin-left: 25rem;
-    margin-bottom:-5rem ;
-    text-align: center;
+  height: 10rem;
+  background-color: #e1707a;
+}
 
-   
-  }
-
+.HeaderContainer{
  
-
-  .indexHeaderCard:hover a{
-    
-
-      background-color: #fbddc4;
-    
-  }
-
-  .indexHeaderCard a{
-    
-    display: block;
-    background : #fcbee4;
-    margin-right: 56rem;
-   padding-bottom: 1rem;
-   
-  }
-
-  #logo{
-    margin-left: 42rem;
-    margin-bottom: 5rem;
-    font-size: 3rem;
-  }
-
-  .newBlog{
-   
-    height:12rem;
-    margin-bottom:32rem;
-    border-radius: 10%;
-   
-
-  }
-  
-
-  .latestBlog{
-    margin-left: 66rem;
-
-  }
-
-
-  .HeaderCard ul li{
-    display: inline-block;
-    margin-left: 13rem;
-    text-decoration: underline;
-text-underline-offset: 1rem;
-margin-bottom: 7rem;
-  }
-
-
-  
+  height: 8rem;
+  background-color: #e1707a;
+  margin-bottom: 5rem;
+}
 
 
 
-
-  .blogSection p{
-    margin-left: 20rem;
-    margin-right:40rem;
-   border-style: solid;
-   border-color: #fcbee4;
-    line-height: 3rem;
-  }
-  
-  .blogSection :hover p{
-    background-color: #fbddc4;
-    transition: 2.5s;
-    animation-fill-mode: backwards;
-
-  }
-
-  .blogSection h2{
-    margin-left: 20rem;
-    margin-right:40rem;
-    line-height: 3rem;
-    
-  }
-
-
-  .blogSection img{
-  margin-right: 10rem;
-    margin-top: -15rem;
-    line-height: 3rem;
-    float: right;
-   height: 12rem;
-   border-radius: 10%;
-    
-  }
-
- .FooterCard ul li {
+.HeaderContainer ul li{
+ 
   display: inline;
-  float: right;
-  padding-right: 5rem;
-  margin-top: 3rem;
- }
+  padding-right: 6rem;
+  padding-left: 5rem;
+  margin-left: 7rem;
+  
+
+  
+} 
+
+.HeaderContainer a{
+ 
+ text-decoration: none;
+  
+} 
 
 
-.blogAuthor h5{
-  display: inline;
-  margin-left: 9rem;
+#logo{
+  margin-left: 44rem;
+  padding-bottom: -5rem;
 }
 
-.blogBody{
-  margin-left: 20rem;
-  margin-right: 20rem;
-  line-height: 3rem;
+
+.column {
+  float: left;
+  width: 20rem;
+  padding: 0 10px;
 }
 
-.blogBody img{
-  margin-left: 10rem;
+.row {
+
+  margin-bottom: 10rem;
+  margin-top: 5rem;
+  margin-left: 15rem;
+}
+
+.quickNavContainer{
+  background-color: #e1707a;
+  width: 15rem;
+  height: 2rem;
+
+
 }
 
 
-
-.blogBody ul li{
-  list-style-type: disc;
+a{
+  text-decoration: non;
 }
 
-.blogSubHeadings{
-  font-size: 2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-#scrollToTopbtn{
-  background: #fbddc4;
-  position: fixed;
-  border-radius: 50%;
-  right: 10px;
-  bottom: 1rem;
-  width: 50px;
-  height: 50px;
+a:visited { 
+  text-decoration: none; 
+  color: black;
 }
 
-#Design_Format img
-{
-  height: 25rem;
-}
+a:hover { 
+  text-decoration: none; 
 
-#Design_Format{
-  margin-left: 20rem;
-  margin-right: 30rem;
-}
+  color:yellow; }
+
+
 
