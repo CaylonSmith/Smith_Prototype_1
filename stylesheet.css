@@ -103,4 +103,14 @@ a:hover {
   color:yellow; }
 
 
+.blogSubHeadings{
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;}
+
+  .blogBody{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    line-height: 3rem;
+  }
 
